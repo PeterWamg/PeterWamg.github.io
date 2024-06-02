@@ -4,14 +4,16 @@
     padding: 0;
     box-sizing: border-box;
 }
-  
+
 html {
     font-size: 62.5%;
 }
-  
+
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1.6rem;
+    background-color: #f8f8f8;
+    color: #333;
 }
 
 /* menu */
@@ -19,8 +21,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 15%;
-    /* background-color: #333; */
-    background: linear-gradient(#333, #808080);
+    background: linear-gradient(#667db6, #0082c8, #0082c8, #667db6);
     text-align: left;
     padding-top: 10px;
     position: fixed;
@@ -34,7 +35,7 @@ body {
     width: 5rem;
     height: 5rem;
     border-radius: 50%;
-    border: 3px solid white;
+    border: 3px solid #fff;
     background-position: center;
     background-size: cover;
     margin: 0 auto;
@@ -59,16 +60,16 @@ body {
 }
 
 .menu-list li:hover {
-    background-color: #555;
+    background-color: #5065a6;
     transition: color 0.3s ease, background-color 0.3s ease;
     cursor: pointer;
 }
 
 .menu-list a {
-    font-size: x-large;
+    font-size: 1.8rem;
     font-weight: bold;
     text-decoration: none;
-    color: white;
+    color: #fff;
 }
 
 .icons {
@@ -87,12 +88,12 @@ body {
 .main-section {
     margin-left: 15%;
     padding: 10px;
-    height: 90vh;
+    min-height: 90vh;
 }
 
 .page-title {
-    color: black;
-    font-size: x-large;
+    color: #333;
+    font-size: 2.5rem;
     font-weight: bold;
     text-align: center;
     margin-bottom: 20px;
@@ -104,7 +105,7 @@ body {
     height: auto;
     margin: 2rem;
     padding: 1rem;
-    background-color: #f2f2f2;
+    background-color: #fff;
     border-radius: .5rem;
     display: flex;
     flex-direction: row;
@@ -120,7 +121,7 @@ body {
     width: 40rem;
     margin: 0 auto;
     border-radius: 0.5rem;
-    box-shadow: 0.5rem 0.5rem 0.5rem darkgray;
+    box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.3);
 }
 
 .project-image button {
@@ -138,18 +139,18 @@ body {
 
 .project-detail h2 {
     color: #333;
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin-bottom: 1rem;
 }
 
 .project-detail p {
     color: #666;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     margin-bottom: 1rem;
 }
 
-project-detail a {
-    font-size: 1.6rem;
+.project-detail a {
+    font-size: 1.8rem;
 }
 
 /* About Me Page */
@@ -163,26 +164,27 @@ project-detail a {
 .about-section {
     margin: 20px;
     padding: 10px;
-    /* background-color: #f2f2f2; */
+    background-color: #fff;
     border-radius: 5px;
     text-align: left;
 }
 
 .about-section h2 {
     color: #333;
-    font-size: 20px;
+    font-size: 2.2rem;
     margin-bottom: 10px;
 }
 
 .about-section p {
     color: #666;
-    font-size: 16px;
+    font-size: 1.8rem;
 }
+
 .about-me-image {
     width: 15%;
     height: auto;
     border-radius: 50%;
-    border: 5px solid black;
+    border: 5px solid #333;
     background-position: center;
     background-size: cover;
     margin: 10px 20px;
@@ -197,14 +199,14 @@ project-detail a {
 
 #pfAboutName {
     color: #333;
-    font-size: xx-large;
+    font-size: 3rem;
     font-weight: bold;
     margin-top: 20px;
 }
 
 #pfAboutTitle {
     color: #666;
-    font-size: x-large;
+    font-size: 2rem;
     margin-top: 10px;
 }
 
@@ -218,12 +220,11 @@ project-detail a {
 .experience-section {
     margin: 2rem;
     padding: 1rem;
-    background-color: #f2f2f2;
+    background-color: #fff;
     border-radius: 5px;
-    /* height: 25%; */
 }
 
-#experience-info, #expResume{
+#experience-info, #expResume {
     background-color: inherit;
 }
 
@@ -234,19 +235,19 @@ project-detail a {
 }
 
 #pfResume {
-    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    padding: 0.5rem;
 }
 
 .experience-section h2 {
-    color: black;
-    font-size: 2rem;
+    color: #333;
+    font-size: 2.5rem;
     margin-bottom: 1rem;
 }
 
 .experience-section p {
     margin: 0.5rem;
     color: #666;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
 }
 
 /* Project Image Carousel */
@@ -259,64 +260,24 @@ project-detail a {
     width: 100%;
     height: 100%;
     overflow: auto;
-    background-color: rgba(0,0,0,.65);
+    background-color: rgba(0, 0, 0, 0.65);
 }
-  
+
 .carousel {
     max-width: 75%;
     position: relative;
     top: 5%;
     margin: 0 auto;
     padding: 0 .5rem 1rem .5rem;
-    background-color: white;
+    background-color: #fff;
 }
-  
+
 #imgList img {
     display: block;
     margin: 1rem auto 1rem auto;
     max-height: 95%;
     max-width: 95%;
 }
-  
-#prev, #next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    padding: 1.6rem;
-    color: red;
-    font-weight: bold;
-    font-size: 4rem;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-}
-  
-#next {
-    right: 1%;
-    border-radius: 3px 0 0 3px;
-}
-    
-#prev {
-    left: 1%;
-    border-radius: 0 3px 3px 0;
-}
 
-#prev:hover, #next:hover {
-    background-color: black;
-}
-  
-#XOut {
-    margin-top: .25rem;
-    padding: 0;
-    color: red;
-    text-align: right;
-    font-size: 2.5rem;
-    font-weight: bold;
-}
-  
-#XOut:hover, #Xout:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
-}
+#prev, #next {
+    cursor: pointer
