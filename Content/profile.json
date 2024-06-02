@@ -1,44 +1,44 @@
 {
-"About": {
-  "Name": "Dapeng Wang",
-  "Currently": "Computer Science Student",
-  "Headshot": "student-portrait.png",
-  "Thumbnail": "student-logo.webp",
-  "AboutText": "Hello! I'm Dapeng Wang, a computer science student at Seattle Pacific University with a passion for programming and software development. I specialize in C++ programming and Unity game development.<br><br>I thrive on tackling difficult programming challenges and enjoy collaborative work environments where I can share my insights and learn from others.<br><br>Outside of my academic pursuits, I am actively involved in hackathons, coding contests, and open-source contributions. I believe in the importance of continuous learning and constantly seek opportunities to explore new technologies and methodologies to keep my skills sharp and up-to-date."
-},
-"Contact": {
-  "EMail": "wangd3@spu.edu",
-  "Phone": "(206) 823-7973",
-  "Portfolio": "https://peterwamg.github.io/index.html",
-  "LinkedIn": "https://www.linkedin.com/in/dapeng-wang-a0bb48220/",
-  "GitHub": "https://github.com/PeterWamg"
-},
-"Experience": {
-  "ExperienceText": "Use this area to explain how you got to where you are and what you are currently doing now.<br><br>This is a good spot to talk yourself up.",
-  "School": "Seattle Pacific University",
-  "Major": "Computer Science",
-  "Graduation": "June 2024",
-  "EducationText": "Use this to add some narrative to your education section",
-  "Employment": "Seattle Pacific University",
-  "Role": "Computer Science Lab Assistant",
-  "EmploymentText": "Use this to add some narrative to your employment section",
-  "Skills": ["C++", " JavaScript", " Node", " CSS"," HTML"],
-  "SkillsText": "Use this to add some narrative to your skills section",
-  "Resume": "student-resume.pdf"  
-},
-"Project1": {
+  "About": {
+    "Name": "Dapeng Wang",
+    "Currently": "Computer Science Student",
+    "Headshot": "student-portrait.png",
+    "Thumbnail": "student-logo.webp",
+    "AboutText": "Hello! I'm Dapeng Wang, a computer science student at Seattle Pacific University with a passion for programming and software development. I specialize in C++ programming and Unity game development.<br><br>I thrive on tackling difficult programming challenges and enjoy collaborative work environments where I can share my insights and learn from others.<br><br>Outside of my academic pursuits, I am actively involved in hackathons, coding contests, and open-source contributions. I believe in the importance of continuous learning and constantly seek opportunities to explore new technologies and methodologies to keep my skills sharp and up-to-date."
+  },
+  "Contact": {
+    "EMail": "wangd3@spu.edu",
+    "Phone": "(206) 823-7973",
+    "Portfolio": "https://peterwamg.github.io/index.html",
+    "LinkedIn": "https://www.linkedin.com/in/dapeng-wang-a0bb48220/",
+    "GitHub": "https://github.com/PeterWamg"
+  },
+  "Experience": {
+    "ExperienceText": "Use this area to explain how you got to where you are and what you are currently doing now.<br><br>This is a good spot to talk yourself up.",
+    "School": "Seattle Pacific University",
+    "Major": "Computer Science",
+    "Graduation": "June 2024",
+    "EducationText": "Use this to add some narrative to your education section",
+    "Employment": "Seattle Pacific University",
+    "Role": "Computer Science Lab Assistant",
+    "EmploymentText": "Use this to add some narrative to your employment section",
+    "Skills": ["C++", "JavaScript", "Node", "CSS", "HTML"],
+    "SkillsText": "Use this to add some narrative to your skills section",
+    "Resume": "student-resume.pdf"
+  },
+  "Project1": {
     "Title": "Interesting Project 1",
     "Desc": "This is a description of Project One.<br><br>It has a GitHub repo and more details shown in screenshots.",
     "GitHubRepo": "https://github.com",
     "MainImage": "P1Main.png",
-    "DetailImages": ["P1Detail1.png","P1Detail2.png","P1Detail3.png"]
+    "DetailImages": ["P1Detail1.png", "P1Detail2.png", "P1Detail3.png"]
   },
   "Project2": {
     "Title": "Interesting Project 2",
     "Desc": "This is a description of Project Two.<br><br>It also has a GitHub repo and more details shown in screenshots.",
     "GitHubRepo": "https://github.com",
     "MainImage": "P2Main.png",
-    "DetailImages": ["P2Detail1.png","P2Detail2.png","P2Detail3.png","P2Detail4.png"]
+    "DetailImages": ["P2Detail1.png", "P2Detail2.png", "P2Detail3.png", "P2Detail4.png"]
   },
   "Project3": {
     "Title": "Interesting Project 3",
