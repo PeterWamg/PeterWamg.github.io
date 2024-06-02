@@ -41,8 +41,8 @@
     "Title": "Algorithms",
     "Desc": "Personal Analysis of Algorithms",
     "GitHubRepo": "https://github.com/PeterWamg/Algorithms",
-    "MainImage": "P3Main.png",
-    "DetailImages": []
+    "MainImage": "AL1.png",
+    "DetailImages": ["D.png", "DC.png", "I.png"]
   },
   "Project4": {
     "Title": "",
