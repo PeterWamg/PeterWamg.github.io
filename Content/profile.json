@@ -28,14 +28,14 @@
     "Desc": "This is a game for SPU student created by our team.",
     "GitHubRepo": "https://github.com/kimanjea/SPU-GradPro",
     "MainImage": "SPUGrad.png",
-    "DetailImages": ["P1Detail1.png", "P1Detail2.png", "P1Detail3.png"]
+    "DetailImages": ["SPU1.png", "SPU2.png", "SPU3.png"]
   },
   "Project2": {
     "Title": "Blackjack card game",
     "Desc": "This is a game I wrote by Rust",
     "GitHubRepo": "https://github.com/PeterWamg/A-Game",
     "MainImage": "blackjack.png",
-    "DetailImages": ["P2Detail1.png", "P2Detail2.png", "P2Detail3.png", "P2Detail4.png"]
+    "DetailImages": ["b1.png",]
   },
   "Project3": {
     "Title": "Algorithms",
