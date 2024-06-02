@@ -24,9 +24,9 @@
     "Resume": "DapengResume.pdf"
   },
   "Project1": {
-    "Title": "Interesting Project 1",
-    "Desc": "This is a description of Project One.<br><br>It has a GitHub repo and more details shown in screenshots.",
-    "GitHubRepo": "https://github.com",
+    "Title": "SPU-GradPro",
+    "Desc": "This is a game for SPU student created by our team.",
+    "GitHubRepo": "https://github.com/kimanjea/SPU-GradPro",
     "MainImage": "P1Main.png",
     "DetailImages": ["P1Detail1.png", "P1Detail2.png", "P1Detail3.png"]
   },
